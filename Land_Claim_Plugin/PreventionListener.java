@@ -9,9 +9,9 @@ import org.bukkit.event.player.PlayerInteractEvent;
 
 public class PreventionListener implements Listener {
 
-    private final  ZeradentSMP plugin;
+    private final  Main plugin;
 
-    public PreventionListener(ZeradentSMP plugin) {
+    public PreventionListener(Main plugin) {
         this.plugin = plugin;
     }
 
