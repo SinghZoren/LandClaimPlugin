@@ -12,9 +12,9 @@ import java.util.Arrays;
 public class ClaimCommand implements CommandExecutor {
 
 
-    private final ZeradentSMP plugin;
+    private final Main plugin;
 
-    public ClaimCommand(ZeradentSMP plugin) {
+    public ClaimCommand(Main plugin) {
         this.plugin = plugin;
     }
 
