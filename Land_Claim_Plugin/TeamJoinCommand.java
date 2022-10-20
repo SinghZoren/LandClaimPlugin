@@ -8,9 +8,9 @@ import org.bukkit.entity.Player;
 
 
 public class TeamJoinCommand implements CommandExecutor {
-    private final ZeradentSMP plugin;
+    private final Main plugin;
 
-    public TeamJoinCommand(ZeradentSMP plugin) {
+    public TeamJoinCommand(Main plugin) {
         this.plugin = plugin;
     }
 
