@@ -14,9 +14,9 @@ import java.util.Arrays;
 public class UnclaimCommand implements CommandExecutor {
 
 
-    private final ZeradentSMP plugin;
+    private final Main plugin;
 
-    public UnclaimCommand(ZeradentSMP plugin) {
+    public UnclaimCommand(Main plugin) {
         this.plugin = plugin;
     }
 
